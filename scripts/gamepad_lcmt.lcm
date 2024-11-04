@@ -1,0 +1,26 @@
+package exlcm;
+struct gamepad_lcmt {
+    int32_t leftBumper ;//mode
+    int32_t rightBumper;//id
+    int32_t leftTriggerButton;
+    int32_t rightTriggerButton;
+    int32_t back;
+    int32_t start;
+    int32_t a; //切换为缓慢趴下模式
+    int32_t b; //切换为恢复站立模式
+    int32_t x; //切换为QP站立模式(kp kd较小)
+    int32_t y; //切换为locomotion模式
+    int32_t leftStickButton;
+    int32_t rightStickButton;
+    float leftTriggerAnalog;  //机器人yaw_vel
+    float rightTriggerAnalog; //step_height
+    float leftStickAnalog[2]; //机器人x;y方向速度控制
+    float rightStickAnalog[2];
+}
+
+
+
+
+
+
+
